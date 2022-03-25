@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap");
+
+html {
+  font-size: 18px;
+  font-family: "Press Start 2P", cursive;
+  background-image: url(/src/images/walp1.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+#app {
+  background-color: #ffffff;
+  margin: 20rem auto;
+  padding: 10px;
+  width: max-content;
+  border: solid;
+  border-width: 6px;
+  border-color: #a2bdc6;
+  box-shadow: 6px 6px #3f495b;
+  min-height: 180px;
+
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#display {
+  font-size: 60px;
+  border: solid;
+  border-width: 5px;
+  box-shadow: 5px 5px #3f495b;
+  min-width: 70px;
+  width: max-content;
+  height: 70px;
+  font-family: "DotGothic16", sans-serif;
+
+  margin: 0px auto;
+
+  text-align: center;
+  margin: 50px auto;
+}
+
+#menu {
+  margin: 25rem auto;
+  padding: 10px;
+  border: solid;
+  border-width: 10px;
+  border-radius: 0px;
+  border-color: #6c8091b2;
+  box-shadow: 10px 10px #3f495bb6;
+
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  background-color: #f7dce0c2;
+  width: max-content;
+  height: max-content;
+}
+
+#button {
+  min-width: 82px;
+  min-height: 25px;
+  background-color: #cad4de;
+  border: solid;
+  border-width: 2px;
+  color: #6c8091;
+  box-shadow: 2px 2px #3f495b;
+
+  text-align: center;
+  font-size: 16px;
+  font-family: "Press Start 2P", cursive;
+}
+
+a {
+  color: #5c5f82;
+}
+
+.chart {
+  width: 600px;
+  border: solid;
+  border-width: 10px;
+  border-color: #a2bdc6;
+  box-shadow: 10px 10px #3f495b;
+}
+
+input[type="text"] {
+  width: 50px;
+  border-top: solid;
+  border-left: solid;
+  border-width: 4px;
+  color: #6c8091;
+  outline: none;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Press Start 2P", cursive;
+}
+
+#score {
+  position: relative;
+  text-align: right;
+
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+#counter {
+  position: relative;
+  text-align: left;
+
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.author {
+  position: absolute;
+  font-size: 10px;
+  bottom: 2px;
+  left: 5px;
+}
+
+/* Colors: 
+    #EFB8CC pink
+    #F1A5A0 orangepink
+    #A2BDC6 bird blue
+    #5C5F82 tree violet
+    #6C8091 building petrolej
+    #3F495B stín
+    #CAD4DE mrak
+*/
