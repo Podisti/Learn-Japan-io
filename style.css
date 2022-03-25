@@ -3,7 +3,7 @@
 html {
   font-size: 18px;
   font-family: "Press Start 2P", cursive;
-  background-image: url(/src/images/walp1.gif);
+  background-image: url(./images/walp1.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
