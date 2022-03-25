@@ -21,9 +21,18 @@ body {
   min-width: 600px;
 }
 
-h1 {
+.title {
+  margin-left: 8px;
   font-weight: normal;
+}
+
+h1 {
   font-size: 36px;
+}
+
+a {
+  color: #5c5f82;
+  font-size: 16px;
 }
 
 #app {
@@ -79,6 +88,10 @@ h1 {
   height: max-content;
 }
 
+.crossroad {
+  margin-bottom: 4px;
+}
+
 #button {
   min-width: 82px;
   min-height: 25px;
@@ -91,12 +104,6 @@ h1 {
   text-align: center;
   font-size: 12px;
   font-family: "Press Start 2P", cursive;
-}
-
-a {
-  color: #5c5f82;
-  font-weight: normal;
-  font-size: 16px;
 }
 
 .chart {
