@@ -73,7 +73,6 @@ a {
 }
 
 #menu {
-  margin: 25rem auto;
   padding: 10px;
   border: solid;
   border-width: 10px;
@@ -86,6 +85,13 @@ a {
   background-color: #f7dce0c2;
   width: max-content;
   height: max-content;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .crossroad {
